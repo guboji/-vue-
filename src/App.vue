@@ -2,6 +2,7 @@
   <div id="app">
     <router-view></router-view>
     <FooterGuide v-show="$route.meta.showFooter"></FooterGuide>
+    hello
   </div>
 </template>
 
